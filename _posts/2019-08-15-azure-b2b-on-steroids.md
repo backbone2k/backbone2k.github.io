@@ -6,6 +6,7 @@ cover-img: /assets/img/path.jpg
 thumbnail-img: ""
 share-img: /assets/img/path.jpg
 tags: [azuread, guest, identity]
+comments: true
 ---
 In this post I will cover some advanced ways to improve Azure B2B usage for day-to-day scenarios.
 
