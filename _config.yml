@@ -12,6 +12,7 @@ author: Christian Baumgartner
 
 navbar-links:
   About Me: "aboutme"
+  Git Hub Pages: "githubpages"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
