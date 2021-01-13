@@ -154,7 +154,7 @@ footer-link-col: "#404040"
 # (3) Install the Utterances app in your repository https://github.com/apps/utterances
 # See more details about the parameters below at https://utteranc.es/
 utterances:
-  repository: GitHub backbone2k/backbone2k.github.io
+  repository: backbone2k/backbone2k.github.io
   issue-term: pathname
   theme: github-light
   label: blog-comments
