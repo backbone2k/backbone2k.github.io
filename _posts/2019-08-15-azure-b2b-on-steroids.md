@@ -5,7 +5,7 @@ subtitle: How to improve your B2B management
 cover-img: /assets/img/path.jpg
 thumbnail-img: ""
 share-img: /assets/img/path.jpg
-tags: [books, test]
+tags: [azuread, guest, identity]
 ---
 In this post I will cover some advanced ways to improve Azure B2B usage for day-to-day scenarios.
 
