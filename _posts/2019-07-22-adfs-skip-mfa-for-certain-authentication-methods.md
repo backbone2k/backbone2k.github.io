@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ADFS: Skip MFA for certain authentication methods
+title: ADFS - Skip MFA for certain authentication methods
 subtitle: Here you'll find all the ways to get in touch with me
 tags: [ADFS]
 ---
