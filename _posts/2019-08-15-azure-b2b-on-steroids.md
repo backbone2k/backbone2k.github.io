@@ -3,7 +3,7 @@ layout: post
 title: Azure B2B on Steriods
 subtitle: How to improve your B2B management
 cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
+thumbnail-img: ""
 share-img: /assets/img/path.jpg
 tags: [books, test]
 ---
