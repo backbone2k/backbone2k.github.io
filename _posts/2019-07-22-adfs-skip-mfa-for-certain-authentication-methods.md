@@ -1,9 +1,9 @@
 ---
+layout: post
 title: ADFS: Skip MFA for certain authentication methods
 subtitle: Here you'll find all the ways to get in touch with me
 tags: [ADFS]
 ---
-
 If you are running a federated authentication with ADFS and your users are coming from outside of your organisation a second factor should be required after successful authentication to get access to Office 365.
 
 But there are situations where you want to skip MFA for a user if a specific authentication mechanism was used. For example if you are logging in with Azure MFA as primary authentication method, immediately getting a Azure MFA as second factor maybe does not make much sense. In this case it maybe ok to skip the second factor.
