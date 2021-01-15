@@ -2,12 +2,19 @@
 layout: post
 title: Azure B2B on Steriods
 subtitle: How to improve your B2B management
+published: true
 cover-img: /assets/img/path.jpg
 thumbnail-img: ""
 share-img: /assets/img/path.jpg
-tags: [azuread, guest, identity]
+tags: [migrated]
 comments: true
+categories:
+- Authentication
+- Azure AD
+- Identity
+- Migration
 ---
+
 In this post I will cover some advanced ways to improve Azure B2B usage for day-to-day scenarios.
 
 We start with some basic tweaks: Change the userType and add B2b users to Exchange Online

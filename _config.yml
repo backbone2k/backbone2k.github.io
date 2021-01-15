@@ -5,8 +5,8 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
 
-title: A tree, forest and cloud blog
-author: Christian Baumgartner
+title: Christian's Blog
+author: Christian 'Treegardner'
 
 navbar-links:
   Blog: "/"
@@ -16,7 +16,7 @@ navbar-links:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
 
-avatar: "/assets/img/me2.jpg"
+avatar: "/assets/img/avatar.jpg"
 round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
@@ -29,7 +29,7 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "contact@treeforest.cloud"
+  email: "blog@treegardner.de"
   github: backbone2k
   twitter: backbone2k
   linkedin: christianbaumgartner
@@ -43,7 +43,7 @@ share-links-active:
 # url-pretty: "MyWebsite.com"
 
 excerpt_length: 50
-feed_show_excerpt: false
+feed_show_excerpt: true
 feed_show_tags: false
 
 keywords: "microsoft,identity,authentication"
@@ -69,8 +69,8 @@ date_format: "%B %-d, %Y"
 timezone: "Europe/Berlin"
 markdown: kramdown
 highlighter: rouge
-permalink: /blog/:title/
-#permalink: /:year-:month-:day-:title/
+#permalink: /blog/:title/
+permalink: /:year/:month/:day/:title:output_ext
 paginate: 10
 paginate_path: "/page:num/"
 
@@ -85,7 +85,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true
+      comments: false
       social-share: true
   -
     scope:
