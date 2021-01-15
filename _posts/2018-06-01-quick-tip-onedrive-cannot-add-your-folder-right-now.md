@@ -13,8 +13,6 @@ tags:
 - issue
 ---
 
-![OneDrive_logo_and_wordmark.svg.png]({{ site.baseurl }}/assets/migrated/2018/06/onedrive_logo_and_wordmark-svg.png)
-
 Last week I came across a problem with the Ondrive for Business NGC  was throwing the error "Onedrive cannot add your folder right now"
 
 ![472e7945-6cb0-4d1c-be7e-62993a6ad6f5]({{ site.baseurl }}/assets/migrated/2018/06/472e7945-6cb0-4d1c-be7e-62993a6ad6f5.png)
