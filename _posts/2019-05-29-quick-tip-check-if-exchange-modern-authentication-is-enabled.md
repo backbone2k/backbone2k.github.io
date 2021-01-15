@@ -10,7 +10,7 @@ categories:
 - Quick tip
 tags:
 - migrated
-permalink: "/2019/05/29/quick-tip-check-if-exchange-modern-authentication-is-enabled/"
+
 ---
 
 In my day to day business I often need to know if a tenant or an on-premise Exchange 2016 environment is enabled for modern authentication. Most of the time I need this information at a point in time, where I do not have access to the customers Exchange (Online) environment - and most of the time even the customer does not know if the tenant or the on-premise environment are running modern or not.

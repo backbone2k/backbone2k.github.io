@@ -11,7 +11,6 @@ categories:
 tags:
 - migrated
 - issue
-permalink: "/2018/06/01/quick-tip-onedrive-cannot-add-your-folder-right-now/"
 ---
 
 ![OneDrive_logo_and_wordmark.svg.png]({{ site.baseurl }}/assets/migrated/2018/06/onedrive_logo_and_wordmark-svg.png)

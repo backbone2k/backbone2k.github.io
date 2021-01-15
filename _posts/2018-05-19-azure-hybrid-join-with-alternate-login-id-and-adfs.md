@@ -9,7 +9,6 @@ categories:
     - Hybrid Join
 tags:
     - migrated
-#permalink: "/2018/05/19/azure-hybrid-join-with-alternate-login-id-and-adfs/"
 ---
 
 A cool feature when you are dealing with Office 365 and Azure AD and you also still have a lot on-prem stuff in your business is to hybrid join your devices. Your Windows device is joined not only into the old fashioned Active Directory but also into Azure AD simultaneously. There are several reasons why you should consider to join the device also into Azure AD:

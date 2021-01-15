@@ -14,6 +14,7 @@ categories:
 - Identity
 - Migration
 ---
+
 In this post I will cover some advanced ways to improve Azure B2B usage for day-to-day scenarios.
 
 We start with some basic tweaks: Change the userType and add B2b users to Exchange Online

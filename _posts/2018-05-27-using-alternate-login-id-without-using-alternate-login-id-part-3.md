@@ -10,7 +10,6 @@ categories:
 tags:
     - migrated
     - popular 
-permalink: "/2018/05/27/using-alternate-login-id-without-using-alternate-login-id-part-3/"
 ---
 
 Welcome back to part 3 of this not so typical technical article about alternate login id. If you have missed the first two you should start reading them first to fully get my intention behind it.

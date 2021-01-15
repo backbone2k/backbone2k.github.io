@@ -10,10 +10,9 @@ categories:
 tags:
     - migrated
     - popular 
-permalink: "/2018/05/23/using-alternate-login-id-without-using-alternate-login-id-part-2/"
 ---
 
-[In my first part](https://treeforestcloud.wordpress.com/2018/05/21/using-alternate-login-id-without-using-alternate-login-id-part-1/) I covered some of the backgrounds of this implementation and ended up with adding an additional SQL attribute store to ADFS. In this part I will explain setting up the database and tables for our alternative alternate login id.
+[In my first part]({% post_url 2018-05-21-using-alternate-login-id-without-using-alternate-login-id-part-1 %}) I covered some of the backgrounds of this implementation and ended up with adding an additional SQL attribute store to ADFS. In this part I will explain setting up the database and tables for our alternative alternate login id.
 
 The idea behind the alternative alternate login id is, to issue claims from a highly standardized data source (in our case a SQL database). So if you are dealing with a lot of Active Directory forests with a bunch of different UPN suffixes and want to have more control over the alternate login id process, this series is right for you. You can also take a look into the first part to learn some of the drawbacks in the out-of-box implementation of alternate login id.
 

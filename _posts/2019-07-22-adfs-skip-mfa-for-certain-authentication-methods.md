@@ -9,7 +9,6 @@ categories:
 - Identity
 tags:
 - migrated
-permalink: "/2019/07/22/adfs-skip-mfa-for-certain-authentication-methods/"
 excerpt: If you are using ADFS for authentication and you want to skip MFA for a user
   if a specific authentication mechanism was  used. In this post I show you one possible
   solution.

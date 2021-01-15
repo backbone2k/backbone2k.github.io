@@ -10,7 +10,6 @@ categories:
 - Workplace
 tags:
 - migrated
-permalink: "/2019/07/16/hybrid-join-the-safe-way-with-clientsidescp/"
 excerpt: If your organisation is transforming to Office 365 and wants to hybrid join
   Windows devices, this post will help you rolling out your first pilot devices without
   to worry for to much impacts. This approach also scales to a huge multi-forest environment.

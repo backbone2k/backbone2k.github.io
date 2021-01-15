@@ -10,7 +10,6 @@ categories:
 - Migration
 tags:
 - migrated
-permalink: "/2019/07/12/use-azure-b2b-direct-federation-for-a-merger-scenario/"
 excerpt: In this article you will learn how to use the new Azure B2B direct federation
   feature to quickly integrate your next M&A challenge.
 ---

@@ -13,7 +13,6 @@ tags:
 - migrated
 - proxy
 - slow
-permalink: "/2018/05/31/outlook-2016-hanging-on-splash-screen/"
 ---
 
 In the last days I was involved in finding the reason for an odd issue with a hanging / slow starting Outlook 2016\. Users reported that Outlook 2016 is starting really slow after restarting the computer. Closing and opening Outlook again is working as expected.

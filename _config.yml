@@ -43,7 +43,7 @@ share-links-active:
 # url-pretty: "MyWebsite.com"
 
 excerpt_length: 50
-feed_show_excerpt: false
+feed_show_excerpt: true
 feed_show_tags: false
 
 keywords: "microsoft,identity,authentication"

@@ -10,7 +10,6 @@ categories:
 tags:
     - migrated
     - popular 
-#permalink: "/2018/05/21/using-alternate-login-id-without-using-alternate-login-id-part-1/"
 ---
 
 When you are working with complex Active Directory environments that have been more or less grown uncontrolled, it is always a challenge to move your workload to the cloud. Most administrators are faced with a challenge from start when it comes to the sync with Azure AD Connect and the user principal names.
