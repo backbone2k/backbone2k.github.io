@@ -71,7 +71,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /blog/:title/
 #permalink: /:year-:month-:day-:title/
-paginate: 10
+paginate: 2
 paginate_path: "/page:num/"
 
 kramdown:

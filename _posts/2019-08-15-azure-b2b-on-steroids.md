@@ -3,10 +3,10 @@ layout: post
 title: Azure B2B on Steriods
 subtitle: How to improve your B2B management
 cover-img: /assets/img/path.jpg
-thumbnail-img: ""
-share-img: /assets/img/path.jpg
 tags: [azuread, guest, identity]
 comments: true
+redirect_from:
+  - /2019/08/15/azure-b2b-on-steroids/
 ---
 In this post I will cover some advanced ways to improve Azure B2B usage for day-to-day scenarios.
 
