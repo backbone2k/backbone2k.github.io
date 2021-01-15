@@ -69,8 +69,8 @@ date_format: "%B %-d, %Y"
 timezone: "Europe/Berlin"
 markdown: kramdown
 highlighter: rouge
-permalink: /blog/:title/
-#permalink: /:year-:month-:day-:title/
+#permalink: /blog/:title/
+permalink: /:year/:month/:day/:title:output_ext
 paginate: 10
 paginate_path: "/page:num/"
 
