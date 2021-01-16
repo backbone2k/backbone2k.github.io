@@ -59,11 +59,13 @@ site-css:
 #site-js:
 #  - "/assets/js/custom-script.js"
 
-utterances:
-  repository: backbone2k/backbone2k.github.io
-  issue-term: pathname
-  theme: github-light
-  label: blog-comments
+disqus: "treegardner"
+
+#utterances:
+#  repository: backbone2k/backbone2k.github.io
+#  issue-term: pathname
+#  theme: github-light
+#  label: blog-comments
 
 date_format: "%B %-d, %Y"
 
