@@ -1,8 +1,7 @@
 ---
-layout: post
+
 title: 'Quick tip: Onedrive cannot add your folder right now'
 date: 2018-06-01 17:16:06.000000000 +02:00
-type: post
 published: true
 categories:
 - Office

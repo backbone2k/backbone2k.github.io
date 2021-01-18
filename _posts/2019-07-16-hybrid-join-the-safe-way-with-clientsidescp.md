@@ -1,8 +1,7 @@
 ---
-layout: post
+
 title: Hybrid-Join the safe way with ClientSideSCP
 date: 2019-07-16 08:28:56.000000000 +02:00
-type: post
 published: true
 status: publish
 categories:

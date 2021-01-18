@@ -1,8 +1,7 @@
 ---
-layout: post
+
 title: Azure hybrid join with alternate login id and ADFS
 date: 2018-05-19 19:57:40.000000000 +02:00
-type: post
 published: true
 categories:
     - Azure AD

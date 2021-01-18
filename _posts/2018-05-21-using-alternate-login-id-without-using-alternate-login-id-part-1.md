@@ -1,8 +1,7 @@
 ---
-layout: post
+
 title: Using alternate login id without using alternate login id - part 1
 date: 2018-05-21 02:37:56.000000000 +02:00
-type: post
 published: true
 categories: 
     - ADFS

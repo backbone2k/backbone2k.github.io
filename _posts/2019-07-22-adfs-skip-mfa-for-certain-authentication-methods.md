@@ -1,8 +1,8 @@
 ---
-layout: post
+
 title: 'ADFS: Skip MFA for certain authentication methods'
 date: 2019-07-22 20:24:19.000000000 +02:00
-type: post
+classes: wide
 published: true
 categories:
 - Authentication

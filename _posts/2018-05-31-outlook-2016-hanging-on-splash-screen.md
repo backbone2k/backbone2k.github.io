@@ -1,8 +1,7 @@
 ---
-layout: post
+
 title: Outlook 2016 hanging on splash screen
 date: 2018-05-31 14:24:46.000000000 +02:00
-type: post
 published: true
 categories:
 - Office

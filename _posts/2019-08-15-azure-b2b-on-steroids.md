@@ -1,13 +1,12 @@
 ---
-layout: post
 title: Azure B2B on Steriods
-subtitle: How to improve your B2B management
+excerpt: How to improve your B2B management
+header:
+  overlay_color: "#2f7d95"
 published: true
-cover-img: /assets/img/path.jpg
-thumbnail-img: ""
-share-img: /assets/img/path.jpg
+toc: true
 tags: [migrated]
-comments: true
+
 categories:
 - Authentication
 - Azure AD

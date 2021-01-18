@@ -1,8 +1,7 @@
 ---
-layout: post
+
 title: 'Quick tip: Check if Exchange modern authentication is enabled'
 date: 2019-05-29 21:20:38.000000000 +02:00
-type: post
 published: true
 categories:
 - Authentication
