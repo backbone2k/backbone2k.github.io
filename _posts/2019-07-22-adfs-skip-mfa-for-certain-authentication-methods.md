@@ -1,6 +1,5 @@
 ---
-
-title: 'ADFS: Skip MFA for certain authentication methods'
+title: "ADFS: Skip MFA for certain authentication methods"
 date: 2019-07-22 20:24:19.000000000 +02:00
 classes: wide
 published: true
@@ -8,8 +7,7 @@ tags:
 - migrated
 categories:
 - Authentication
-  excerpt: If you are using ADFS for authentication and you want to skip MFA when a specific authentication mechanism was used this post can help you.
-  solution.
+excerpt: If you are using ADFS for authentication and you want to skip MFA when a specific authentication mechanism was used this post can help you.
 comments: true
 ---
 
