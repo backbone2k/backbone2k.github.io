@@ -4,7 +4,6 @@ title: Using alternate login id without using alternate login id – part 2
 date: 2018-05-23 07:10:25.000000000 +02:00
 published: true
 categories: 
-    - ADFS
     - Authentication
 tags:
     - migrated

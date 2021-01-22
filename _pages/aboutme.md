@@ -1,6 +1,11 @@
 ---
 title: About me
+permalink: /aboutme/
+layout: single
+classes: wide
+author_profile: true
 ---
+
 Welcome to my blog where I will write about my ideas, experiences and solutions I came across in my passion about Microsoft technologies in large,complex enterprise environments.
 
 My name is Christian Baumgartner. I am living with wife and two lovely children in the middle of Germany.

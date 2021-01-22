@@ -4,13 +4,11 @@ title: 'ADFS: Skip MFA for certain authentication methods'
 date: 2019-07-22 20:24:19.000000000 +02:00
 classes: wide
 published: true
-categories:
-- Authentication
-- Identity
 tags:
 - migrated
-excerpt: If you are using ADFS for authentication and you want to skip MFA for a user
-  if a specific authentication mechanism was  used. In this post I show you one possible
+categories:
+- Authentication
+  excerpt: If you are using ADFS for authentication and you want to skip MFA when a specific authentication mechanism was used this post can help you.
   solution.
 comments: true
 ---
@@ -64,7 +62,7 @@ c:[Type == "http://treeforest.cloud/skipMFA", Value == "skip"]
 
 If skipMFA with value "skip" is present this rule issues an _authnmethodsreference_ claim with the value **multipleauthn**. This value is later honored by ADFS access policies and/or Azure AD conditional access policies. So there will be no additional MFA triggered for the user if Azure MFA was used as an primary authentication method. 
 
-#### Rule: Issue multifactorauthenticationinstant for AzureMfa</h4>
+#### Rule: Issue multifactorauthenticationinstant for AzureMfa
 
 Just sending a "faked" multipleauthn reference is not enough. You also have to send out an UTC timestamp when the MFA authentication took place. Because we do not have this timestamp as a result of missing MFA we have to use another claim that is related to the authentication. The claim authenticationinstant contains the UTC timestamp for the primary authentication. Issuing this timestamp as multifactorauthenticationsinstant seems practical :-D
 

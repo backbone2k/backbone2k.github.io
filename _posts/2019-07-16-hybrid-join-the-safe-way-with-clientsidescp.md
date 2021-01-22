@@ -4,11 +4,10 @@ title: Hybrid-Join the safe way with ClientSideSCP
 date: 2019-07-16 08:28:56.000000000 +02:00
 published: true
 status: publish
-categories:
-- Hybrid Join
-- Workplace
 tags:
-- migrated
+  - migrated
+categories:
+  - Workplace
 excerpt: If your organisation is transforming to Office 365 and wants to hybrid join
   Windows devices, this post will help you rolling out your first pilot devices without
   to worry for to much impacts. This approach also scales to a huge multi-forest environment.

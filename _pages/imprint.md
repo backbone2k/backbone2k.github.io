@@ -1,15 +1,17 @@
 ---
-title: Impressum
+title: Impressum und ViSdP
+permalink: /imprint/
+layout: single
+classes: wide
+author_profile: false
 ---
-Impressum und ViSdP
-_[German law demands this]_
+_[german law demands this]_
 
-Christian Baumgartner
-Heidelberger Straße 32A
-64342 Seeheim-Jugenheim
+Christian Baumgartner  
+Heidelberger Straße 32A  
+64342 Seeheim-Jugenheim  
 
-
-E-Mail: contact(at)treeforest.cloud
+E-Mail: blog(at)treeforest.cloud
 
 ## Disclaimer – rechtliche Hinweise
 § 1 Warnhinweis zu Inhalten

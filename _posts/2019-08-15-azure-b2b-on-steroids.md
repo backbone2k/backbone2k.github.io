@@ -1,17 +1,13 @@
 ---
 title: Azure B2B on Steriods
 excerpt: How to improve your B2B management
-header:
-  overlay_color: "#2f7d95"
+date: 2019-08-15 18:44:12.000000000 +02:00
 published: true
 toc: true
-tags: [migrated]
-
+tags: 
+   - migrated
 categories:
-- Authentication
-- Azure AD
-- Identity
-- Migration
+   - Identity
 ---
 
 In this post I will cover some advanced ways to improve Azure B2B usage for day-to-day scenarios.

@@ -4,12 +4,10 @@ title: 'Quick tip: Onedrive cannot add your folder right now'
 date: 2018-06-01 17:16:06.000000000 +02:00
 published: true
 categories:
-- Office
-- Quick tip
-- OneDrive
+    - Office
 tags:
-- migrated
-- issue
+    - migrated
+    - issue
 ---
 
 Last week I came across a problem with the Ondrive for Business NGC  was throwing the error "Onedrive cannot add your folder right now"

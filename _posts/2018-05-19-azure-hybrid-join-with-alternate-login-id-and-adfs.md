@@ -4,8 +4,7 @@ title: Azure hybrid join with alternate login id and ADFS
 date: 2018-05-19 19:57:40.000000000 +02:00
 published: true
 categories:
-    - Azure AD
-    - Hybrid Join
+    - Workplace
 tags:
     - migrated
 ---

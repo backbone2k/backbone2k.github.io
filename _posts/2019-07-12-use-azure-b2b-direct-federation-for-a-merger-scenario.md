@@ -4,9 +4,7 @@ title: Use Azure B2B direct federation for a merger scenario
 date: 2019-07-12 14:09:54.000000000 +02:00
 published: true
 categories:
-- Authentication
-- Azure AD
-- Migration
+- Identity
 tags:
 - migrated
 excerpt: In this article you will learn how to use the new Azure B2B direct federation

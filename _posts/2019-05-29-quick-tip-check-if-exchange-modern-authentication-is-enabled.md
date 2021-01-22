@@ -4,11 +4,10 @@ title: 'Quick tip: Check if Exchange modern authentication is enabled'
 date: 2019-05-29 21:20:38.000000000 +02:00
 published: true
 categories:
-- Authentication
 - Exchange
-- Quick tip
 tags:
 - migrated
+excerpt: Ever wanted to check if a specific tenant has modern authentication for EXO enabled without having administrative permissions? This is the way ;-)
 
 ---
 
