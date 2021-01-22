@@ -18,7 +18,6 @@ repository: "backbone2k/backbone2k.github.io"
 
 timezone: "Europe/Berlin"
 markdown: kramdown
-#permalink: /:year/:month/:day/:title:output_ext
 permalink: /:categories/:title/
 breadcrumbs: true  # disabled by default
 paginate: 5
