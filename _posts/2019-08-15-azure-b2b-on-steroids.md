@@ -85,16 +85,17 @@ PS> Get-AzureAdUser -UserPrincipalName $AzureB2BUpn | Set-AzureAdUser -Immutable
 ```
 After setting the ImmutableId with your next sync cycle you should see that AAD Connect will import the identity into the Metaverse.
 
-Adding logic to avoid accidential sync of external before an Azure B2B account is prepared
+**Adding logic to avoid accidential sync of external before an Azure B2B account is prepared**  
 The next part in the puzzle is, we have to etablish a process in AD/ AAD Connect that only exports external users when a corresponding Azure B2B object is available and prepared with an immutableId. For this I recommend the usage of two attributes we use for the flow. One should be an attribut that helps us identify external user accounts. Maybe you already have something in place for that. The second one will be populated after the Azure B2B preparations are done. For this post I will use the following two attributes:
 
-employeeType
-customAttribute1
+* employeeType
+* customAttribute1
 With this two attributes we can now create a custom rule in AAD Connect that will make sure that external users that have no corresponding and prepared Azure B2B identity get not synced. The details why this is important will covered later on.
 
 To filter out these users we can use the build in Metaverse attribute cloudFiltered. If this value is True for a given user the rules shipping with AAD Connect will not Export the user to Azure AD. So creating create a new Inbound rule:
 
-Basic settings
+```text
+Basic settings  
 
 Name: In from AD – Cloud filter Non-Employee
 Connected system: AD
@@ -110,6 +111,8 @@ Tranformations
 Flow type: Constant
 Target attribute: cloudFiltered
 Source: True
+```
+
 So what this rules does is setting the attribute cloudFiltered to True for all users that have employeeType ‘External’ and not set a value for CustomAttribute1. In reverse this means, as soon as our preparation is done and we write back something into customAttribute1 the sync and export will start to flow exactly like in this illustration:
 
 
@@ -127,7 +130,7 @@ One thing I have not mentioned before but it is really awesome: With the Hybrid 
 When you create an guest user invite and this invitation is redeemed by the user Microsoft will stamp an alternateSecurityId to the Azure B2B object in your tenant. This is the link for the object between your tenant and the home tenant of the Azure B2B user:
 
 
-The actual values are not show like this – just for explanation purpose
+**The actual values are not show like this – just for explanation purpose**  
 So every time a user authenticates in the home tenant and switch to your tenant to access a shared document, Microsoft will map the user with the help of this attribute. Currently there is no way to manually update or remove the alternateSecurityId that is pointing to the source user. This is why it so important to first create the Azure AD B2b object by invitation. This is currently the only way to stamp an alternateSecurityId onto it!
 
 But hey – that is no a “two-leg”, right? Absolutely! But in that moment, we link our on-prem account to the Azure B2B identity a second way of authentication will be established. And it does not matter how you are authenticating against Azure AD – this works for all three scenarios: ADFS, Password hash sync and Passthrough authentication!
