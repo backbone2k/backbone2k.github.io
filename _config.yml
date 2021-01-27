@@ -2,7 +2,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 
 # Site settings
 minimal_mistakes_skin: "air" #"default" #"air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
-title: Christian's Blog
+title: treegardner.de
 email: "blog@treegardner.de"
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
