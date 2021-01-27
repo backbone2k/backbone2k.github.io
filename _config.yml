@@ -92,7 +92,7 @@ defaults:
       related: true
       show_date: true
       header:
-        overlay_color: "#0092ca"
+        overlay_color: "#176585"
 
   # _pages
   - scope:
